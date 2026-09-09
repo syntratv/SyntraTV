@@ -752,7 +752,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
               { name: 'ALEX M.', loc: 'FRANCE', text: "SyntraTV has completely replaced my cable setup. The setup process took less than three minutes on my Firestick, and the stream stability during live Champions League matches in 4K is absolutely spotless. WhatsApp customer support is also incredibly fast!", img: "https://i.pravatar.cc/100?img=11" },
-              { name: 'DAVID R.', loc: 'GERMANY', text: "The channel lineup is insane—over 20,000 channels and endless VOD movies. Zero buffering or slowdowns even during peak weekend sports hours. Easily the best and most reliable IPTV provider I've ever subscribed to.", img: "https://i.pravatar.cc/100?img=12" },
+              { name: 'DAVID R.', loc: 'GERMANY', text: "The channel lineup is insane—over 20,000 channels and endless VOD movies. Zero buffering or slowdowns even during peak weekend sports hours. Easily the best and most reliable IPTV provider in Australia and USA and Europe. I've ever subscribed to.", img: "https://i.pravatar.cc/100?img=12" },
               { name: 'SOFIA L.', loc: 'NETHERLANDS', text: "Super transparent pricing, instant automated delivery, and extremely crisp 4K picture quality. The 7-day catch-up feature makes it so easy to rewatch missed shows whenever I want. Highly recommended to everyone!", img: "https://i.pravatar.cc/100?img=9" }
             ].map((review, i) => (
               <ScrollReveal delay={0.1*i} key={i}>

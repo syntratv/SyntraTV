@@ -31,6 +31,7 @@ export default function Footer() {
                 <li><Link href="/pricing" className="hover:text-[var(--color-brand)] transition-colors">Pricing</Link></li>
                 <li><Link href="/setup" className="hover:text-[var(--color-brand)] transition-colors">Setup Guide</Link></li>
                 <li><Link href="/blog" className="hover:text-[var(--color-brand)] transition-colors">Blog</Link></li>
+                <li><Link href="/syntra-tv" className="hover:text-[var(--color-brand)] transition-colors">Syntra TV</Link></li>
                 <li><Link href="/contact" className="hover:text-[var(--color-brand)] transition-colors">Contact</Link></li>
               </ul>
             </div>
@@ -46,7 +47,7 @@ export default function Footer() {
             <div className="col-span-2 md:col-span-1">
               <h5 className="font-display font-black uppercase tracking-widest text-[#a3a3a3] text-xs mb-6">SUPPORT</h5>
               <p className="text-sm font-medium text-gray-400 mb-6">Need help? SyntraTV support team replies fast on WhatsApp 24 hours a day 7 days a week.</p>
-              <Link href="https://wa.me/+447549589503" className="inline-flex items-center gap-2 text-sm font-bold text-[#25D366] hover:brightness-125 transition-all">
+              <Link href="https://live-support.netlify.app/" className="inline-flex items-center gap-2 text-sm font-bold text-[#25D366] hover:brightness-125 transition-all">
                 <MessageCircle size={18} /> Chat on WhatsApp
               </Link>
             </div>
