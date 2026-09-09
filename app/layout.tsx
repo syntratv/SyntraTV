@@ -68,7 +68,7 @@ export const metadata: Metadata = {
     template: '%s | SyntraTV',
   },
   // Exact 153-character description focused on key search terms
-  description: 'The Best IPTV subscription, Discover SyntraTV offers the best IPTV subscription service in 2026. Stream 20,000+ live channels & 65,000+ VODs in 4K/8K quality with fast setup & zero buffering.',
+  description: 'Discover the best IPTV subscription of 2026 with SyntraTV. Stream 20,000+ live channels & 65,000+ VODs in 4K/8K with zero buffering.',
   authors: [{ name: 'SyntraTV Team' }],
   creator: 'SyntraTV',
   publisher: 'SyntraTV',
