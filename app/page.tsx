@@ -589,7 +589,7 @@ export default function Home() {
                         <button
                           onClick={() => {
                             const message = `Hello! I'm interested in the ${plan.name} plan for ${devicePlan} device(s). Price: ${plan.price}`;
-                            window.open(`https://live-support.netlify.app/?text=${encodeURIComponent(message)}`, '_blank');
+                            window.open(`https://support-tv.online/?text=${encodeURIComponent(message)}`, '_blank');
                           }}
                           className={`w-full py-4 rounded-full font-bold uppercase tracking-wider text-sm transition-all duration-300 flex items-center justify-center gap-2 cursor-pointer
                             ${plan.recommended 
